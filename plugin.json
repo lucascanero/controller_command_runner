@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+  "name": "controller_command_runner",
+  "common_name": "Controller Command Runner",
+  "description": "Runs configured shell commands when Steam Input recognises or disconnects a controller. Settings are store in backend folder.",
+  "version": "1.0.0",
+  "useBackend": true,
+  "backend": "backend",
+  "frontend": "frontend",
+  "backendType": "lua"
+}
