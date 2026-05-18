@@ -2,6 +2,8 @@
 
 A simple plugin that runs configured commands when a controller is connected or disconnected to Steam. This can be used to start Steam Big Picture or change the display to a TV when a controller is connected for e.g.
 
+<img width="2212" height="902" alt="demo" src="https://github.com/user-attachments/assets/704c9934-6aae-4786-ad9a-980892560244" />
+
 ## Overview
 
 When the system detects a controller connection via Steam Input, the backend executes a configured command; a separate command runs on disconnection. Settings are saved in the plugin folder.
