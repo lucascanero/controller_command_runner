@@ -641,7 +641,7 @@ function CommandSettings() {
     >
       <CommandInput
         label="Command when controller is connected"
-        description="Runs once when Steam Input recognises a controller. Leave empty to do nothing. Saved by the Lua backend."
+        description="Runs once when Steam Input recognises a controller. Leave empty to do nothing."
         value={connectCommand}
         onChange={setConnectCommand}
         placeholder={isWindows ? 'notepad.exe' : 'notify-send "Controller connected"'}

@@ -583,7 +583,7 @@ let PluginEntryPointMain = function() { var millennium_main = (function (exports
                 maxWidth: '100%',
                 padding: '4px 24px 18px 24px',
                 overflowX: 'hidden',
-            }, children: [jsxRuntime.jsx(CommandInput, { label: "Command when controller is connected", description: "Runs once when Steam Input recognises a controller. Leave empty to do nothing. Saved by the Lua backend.", value: connectCommand, onChange: setConnectCommand, placeholder: isWindows ? 'notepad.exe' : 'notify-send "Controller connected"' }), jsxRuntime.jsx(CommandInput, { label: "Command when controller is disconnected", description: "Runs only after the controller disappears. Leave empty to do nothing.", value: disconnectCommand, onChange: setDisconnectCommand, placeholder: isWindows ? 'cmd /c echo Controller disconnected' : 'notify-send "Controller disconnected"', bottomSeparator: false })] }));
+            }, children: [jsxRuntime.jsx(CommandInput, { label: "Command when controller is connected", description: "Runs once when Steam Input recognises a controller. Leave empty to do nothing.", value: connectCommand, onChange: setConnectCommand, placeholder: isWindows ? 'notepad.exe' : 'notify-send "Controller connected"' }), jsxRuntime.jsx(CommandInput, { label: "Command when controller is disconnected", description: "Runs only after the controller disappears. Leave empty to do nothing.", value: disconnectCommand, onChange: setDisconnectCommand, placeholder: isWindows ? 'cmd /c echo Controller disconnected' : 'notify-send "Controller disconnected"', bottomSeparator: false })] }));
     }
     startControllerDetector();
     var index = client.definePlugin(() => {
